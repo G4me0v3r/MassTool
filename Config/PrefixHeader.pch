@@ -1,0 +1,24 @@
+//
+//  PrefixHeader.pch
+//  MassTool
+//
+//  Created by Coder雲逍遥 on 16/3/6.
+//  Copyright © 2016年 github.com/SSshare. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#pragma mark - system
+#import "Config.h"
+#import "AppDelegate.h"
+//如果引入swift，去下下面这条注释
+//#import "baochunsteel-Swift.h"
+
+#pragma mark - vender
+#import <AFNetworking.h>
+#import <UIKit+AFNetworking.h>
+#import <ReactiveCocoa.h>
+#import <SDWebImage/UIImageView+WebCache.h>
+
+#endif /* PrefixHeader_pch */
